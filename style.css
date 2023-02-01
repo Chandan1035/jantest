@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image-1,
+  .image-2,
+  .image-3,
+  .image-4 {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0;
+  }
+
+  .flex-container img{
+    flex-wrap: wrap;
+    width: 320px;
+    height: 300px;
+    margin: 10px 0;
+}
+  
+  .form {
+    display: none;
+  }
+  
+  .coupon {
+    display: none;
+  }
+  
+  
